@@ -34,7 +34,219 @@ p {
 div {
   background-color: #333333;
   position: relative;
+  padding-bottom: 0px;body {
+  margin: 0%;
+  text-align: center;
+}
+
+h1 {
+  color: #929aab;
+  font-size: 70px;
+  margin: 0px;
+  font-family: 'Sriracha', cursive;
+  padding-top: 160px;
+}
+
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+  color: #e1f4f3;
+  font-size: 2.0rem;
+  line-height: 1;
+}
+
+h3 {
+  color: #fbffa8;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5rem;
+}
+
+p {
+  margin-top: 0px;
+  font-family: 'Baloo 2', cursive;
+  color: #d3d5fd;
+}
+
+div {
+  background-color: #333333;
+  position: relative;
   padding-bottom: 0px;
+}
+
+a {
+  color: #fbffa8;
+  font-family: 'Dosis', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+}
+hr {
+  border: none;
+  border-top: 10px dotted grey;
+  width: 20%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  }
+
+.tracy {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(540deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+
+}
+
+/* Style the back side */
+.flip-card-back {
+  color: white;
+  transform: rotateY(180deg);
+  line-height: 70px;
+}
+
+
+
+.bottomwww {
+  position: absolute;
+  left: 200px;
+}
+
+.topwww {
+  position: absolute;
+  right: 200px;
+  top: 100px;
+}
+
+.top-container {
+  background-color: #333333;
+}
+
+.middle-container {
+  padding-top:  100px;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+
+.top-font {
+  font-weight: normal;
+  font-size: 400px;
+  color: black;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bubble {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  padding-top: 0px;
+  border-top-width: 0px;
+  margin-top: 0px;
+}
+
+.bottom-container {
+  background-color: #0b0b0d;
+  padding: 50px 0 20px;
+}
+.contact-message {
+  width: 40%;
+  margin: auto;
+  line-height: 30px;
+  padding-bottom: 80px;
+}
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background-color:#00a8cc;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:19px;
+	font-weight:bold;
+	padding:12px 26px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background-color:#ccc2a6;
+  color:#333333;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.copy {
+  font-size: -5rem;
+  padding: 20px 0px;
+}
+
 }
 
 a {
